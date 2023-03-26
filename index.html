@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <link rel="stylesheet" href="/styles.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+   
+  </style>
+</head>
+<body>
+    <!--Container-->
+ <main class="container">
+    <!--Photo section-->
+    <div class="box"></div>
+    <div class="photo-section">
+      
+        <div class="woman-photo"></div>
+        <div class="shadow-section"></div>
+    </div>
+
+    <!--Text area-->
+    <div class="text-area">
+        <!--title-->
+        <h1 class="title">
+            FAQ
+        </h1>
+        <!--Content area-->
+        <div class="content-section ">
+            <!--first article-->
+            <div class="acordeon-section" id="sectionOne">
+                <div class="fixed-section ">
+                    <button class= "active-button" id="titleOne">
+                        How many team members can I invite?
+                      </button>
+                      <img class="rotate" src="/images/icon-arrow-down.svg" alt="" >
+                </div>
+                <p class="off animate__animated animate__fadeInDown">
+                    You can invite up to 2 additional users on the Free plan. There is no limit on 
+                    team members for the Premium plan.
+                  </p>
+            </div>
+
+            <!--second article-->
+
+            <div class="acordeon-section" id="sectionTwo">
+                <div class="fixed-section ">
+                    <button class= "active-button" id="titleTwo">
+                        What is the maximum file upload size?
+                      </button>
+                      <img class="rotate" src="/images/icon-arrow-down.svg" alt="" >
+                </div>
+                <p class="off">
+                    No more than 2GB. All files in your account must fit your allotted storage space.
+                  </p>
+            </div>
+
+            <!--Third article-->
+
+            <div class="acordeon-section off" id="sectionTree">
+                <div class="fixed-section">
+                    <button class= "active-button" id="titleTree">
+                        How do I reset my password?
+                      </button>
+                      <img class="rotate" src="/images/icon-arrow-down.svg" alt="" >
+                </div>
+                <p class="">
+                    Click “Forgot password” from the login page or “Change password” from your profile page.
+                    A reset link will be emailed to you.
+                  </p>
+            </div>
+
+            <!--Fourth article-->
+
+            <div class="acordeon-section " id="sectionFour">
+                <div class="fixed-section ">
+                    <button class= "active-button" id="titleFour">
+                        Can I cancel my subscription?
+                      </button>
+                      <img class="rotate" src="/images/icon-arrow-down.svg" alt="" >
+                </div>
+                <p class="off">
+                    Yes! Send us a message and we’ll process your request no questions asked.
+                  </p>
+            </div>
+
+            <!--Fifth article-->
+
+            <div class="acordeon-section " id="sectionFive">
+                <div class="fixed-section ">
+                    <button class= "active-button" id="titleFive">
+                        Do you provide additional support?
+                      </button>
+                      <img class="rotate" src="/images/icon-arrow-down.svg" alt="">
+                </div>
+                <p class="off" >
+                    Chat and email support is available 24/7. Phone lines are open during normal business hours.
+                  </p>
+            </div>
+
+        </div>
+    </div>
+ </main>
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+
+  <script src = "/app.js"></script>
+</body>
+</html>
